@@ -8,3 +8,6 @@ class Estudiante:
         print(f"Nombre: {self.nombre}")
         print(f"Edad: {self.edad}")
         print(f"Carrera: {self.carrera}")
+
+st = Estudiante("Jesús", 27, "ISC")
+st.mostrar_informacion
