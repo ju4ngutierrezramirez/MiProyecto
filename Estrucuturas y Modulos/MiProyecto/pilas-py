@@ -1,0 +1,14 @@
+pila = []
+
+# Agregar elementos
+pila.append("A")
+pila.append("B")
+pila.append("C")
+
+print(pila)  # ['A', 'B', 'C']
+
+# Sacar el último elemento
+ultimo = pila.pop()
+
+print(ultimo)  # C
+print(pila)    # ['A', 'B']
