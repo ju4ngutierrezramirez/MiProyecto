@@ -70,9 +70,21 @@ while True:
     if opcion == "1":
         id = int(input("ID: "))
         nombre = input("Nombre: ")
-        edad = int(input("Edad: "))
-        grupo = input("Grupo: ")
-        agregar_estudiantes(id, nombre, edad, grupo)
+        talla = int(input("Talla: "))
+        edad_recomendada = input("Edad recomendada: ")
+        agregar_estudiantes(id, nombre, talla, edad_recomendada)
+        {
+    "id": 1,
+    "nombre": "Spider-Man",
+    "categoria": "Superhéroe",
+    "talla": "M",
+    "edad_recomendada": "8-10",
+    "precio": 550,
+    "stock": 5,
+    "proveedor": "Proveedor X",
+    "temporada": "Halloween",
+    "costo_compra": 300
+}
     elif opcion == "2":
         mostrar_estudiantes()
     elif opcion == "3":
